@@ -58,3 +58,28 @@ OTP sent via email for:
 ---
 
 ## 🧩 Project Structure
+     Delivery-App/
+    ├── .idea/ # IntelliJ project settings
+    ├── .mvn/ # Maven wrapper files
+    ├── src/
+    │ ├── main/
+    │ │ ├── java/
+    │ │ │ └── com/Yua/FastDelivery/Delivery_App/
+    │ │ │ ├── Config/ # Application configuration classes
+    │ │ │ ├── Controller/ # REST API controllers
+    │ │ │ ├── Dto/ # Data Transfer Objects
+    │ │ │ ├── Entity/ # JPA entities (database models)
+    │ │ │ ├── Exception/ # Custom exceptions
+    │ │ │ ├── GlobleExeption/ # Global exception handler
+    │ │ │ ├── Jwt/ # JWT token utilities and filters
+    │ │ │ ├── Mapping/ # Entity-to-DTO mappers
+    │ │ │ ├── Repository/ # Spring Data JPA repositories
+    │ │ │ ├── Service/ # Business logic and services
+    │ │ │ └── DeliveryAppApplication.java # Main Spring Boot application
+    │ │ └── resources/
+    │ │ └── application.properties # Application configuration file
+    │ ├── test/ # Unit and integration tests
+    │
+    ├── target/ # Compiled output and build files
+    ├── .gitattributes # Git settings for file normalization
+    └── README.md # Project documentation
